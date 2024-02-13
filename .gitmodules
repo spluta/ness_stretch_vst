@@ -1,3 +1,4 @@
-[submodule "ness_stretch_lib"]
-	path = ness_stretch_lib
-	url = https://github.com/spluta/ness_stretch_lib
+[submodule "HISSTools_Library"]
+	path = HISSTools_Library
+	url = https://github.com/AlexHarker/HISSTools_Library.git
+	branch = header-only
