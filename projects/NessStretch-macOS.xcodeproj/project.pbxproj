@@ -33,6 +33,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		22E4E80A2B7BCBD800A7B75A /* hisstools in Resources */ = {isa = PBXBuildFile; fileRef = 22E4E8092B7BCBD800A7B75A /* hisstools */; };
 		4F03A58C20A4621100EBDFFB /* IGraphicsNanoVG.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F03A55020A4621000EBDFFB /* IGraphicsNanoVG.h */; };
 		4F03A5AA20A4621100EBDFFB /* IGraphicsLiveEdit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F03A55620A4621000EBDFFB /* IGraphicsLiveEdit.h */; };
 		4F03A5AB20A4621100EBDFFB /* IGraphics_include_in_plug_hdr.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F03A55720A4621000EBDFFB /* IGraphics_include_in_plug_hdr.h */; };
@@ -326,10 +327,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		222C6D9A2B49DA3000696928 /* HISSTools_Library */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HISSTools_Library; path = ../HISSTools_Library; sourceTree = "<group>"; };
 		222C6D9B2B49DBB700696928 /* Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Buffer.h; path = ../Buffer.h; sourceTree = "<group>"; };
 		22432A342B4B8B5200B223C6 /* libness_stretch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libness_stretch.a; path = ../ness_stretch/target/release/libness_stretch.a; sourceTree = "<group>"; };
 		22432A362B4B8DB500B223C6 /* ness_stretch */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ness_stretch; path = ../ness_stretch; sourceTree = "<group>"; };
+		22E4E8092B7BCBD800A7B75A /* hisstools */ = {isa = PBXFileReference; lastKnownFileType = folder; name = hisstools; path = ../HISSTools_Library/include/hisstools; sourceTree = "<group>"; };
 		4F037D75261F9DB400A752B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../resources/Images.xcassets; sourceTree = "<group>"; };
 		4F03A55020A4621000EBDFFB /* IGraphicsNanoVG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGraphicsNanoVG.h; sourceTree = "<group>"; };
 		4F03A55420A4621000EBDFFB /* IGraphicsNanoVG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IGraphicsNanoVG.cpp; sourceTree = "<group>"; };
@@ -781,7 +782,7 @@
 			children = (
 				22432A362B4B8DB500B223C6 /* ness_stretch */,
 				222C6D9B2B49DBB700696928 /* Buffer.h */,
-				222C6D9A2B49DA3000696928 /* HISSTools_Library */,
+				22E4E8092B7BCBD800A7B75A /* hisstools */,
 				52FBBED30D0CF143001C8B8A /* config.h */,
 				4F3862EE2014BBEC0009F402 /* NessStretch.h */,
 				4F3862ED2014BBEC0009F402 /* NessStretch.cpp */,
@@ -1867,6 +1868,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E4E80A2B7BCBD800A7B75A /* hisstools in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

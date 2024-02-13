@@ -3,7 +3,7 @@
 //#include "../HISSTools_PluginLib/HISSTools_UI/HISSTools_Controls.hpp"
 
 //#include "Harker/HISSTools_Library/AudioFile/BaseAudioFile.h"
-#include "ness_stretch/ness_stretch.h"
+#include "ness_stretch_static/ness_stretch.h"
 #include "Buffer.h"
 
 #if IPLUG_EDITOR
